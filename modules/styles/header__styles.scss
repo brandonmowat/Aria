@@ -1,0 +1,109 @@
+$primary: #cceaf5;
+$secondary: #feeccd;
+$tertiary: #c7e8e5;
+$black: #231f20;
+$white: #fff;
+$padding: 30px;
+
+html,
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {text-decoration: none;}
+// Header -------------------------------------
+.Header {
+  color: #fff;
+  background-color: $black;
+  padding: $padding 35px;
+}
+
+.siteHeader,
+.siteFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.siteHeader__section {
+  align-items: center;
+  display: flex;
+}
+
+.headerInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.headerInfo__section {
+  align-items: flex-start;
+  display: flex;
+}
+
+.logo a {
+  color: #FFF;
+}
+
+// Navigation
+nav {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+nav a {
+  color: $white;
+  margin: 0 0 0 1em;
+  padding: 1em 0;
+}
+
+// headerInfo
+.headerInfo__description {
+  font-size: 15px;
+  max-width: 400px;
+}
+
+.headerInfo__description h3 {
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.headerInfo__contact a,
+.headerInfo__social a {
+  line-height: 1.3;
+}
+
+.headerInfo__contact {
+  width: 230px;
+}
+
+.headerInfo__contact a {
+  display: block;
+  font-size: 18px;
+}
+
+.headerInfo__social a {
+  display: block;
+  font-size: 18px;
+}
+
+// Footer --------------------------------
+.siteFooter {
+  background-color: $black;
+  color: $white;
+  padding: $padding 35px;
+}
+
+.siteFooter a {
+  font-size: 18px;
+  font-weight: 600;
+}

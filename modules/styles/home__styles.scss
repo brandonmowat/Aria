@@ -1,0 +1,34 @@
+@import './base/typography';
+
+$primary: rgb(106, 115, 133);
+$secondary: #feeccd;
+$tertiary: #c7e8e5;
+$black: #231f20;
+
+$padding: 30px;
+
+html,
+body {
+  margin: 0;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+.home__wrapper {
+  background-color: $primary;
+  padding: $padding 35px;
+}
+
+.grid {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.grid-2-5 {
+  width: 2 / 5 * 100%;
+}
+.grid-3-5 {
+  width: 3 / 5 * 100%;
+}

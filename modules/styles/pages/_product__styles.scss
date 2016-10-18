@@ -1,0 +1,56 @@
+$black: #231f20;
+
+.product-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.product-container {
+  //justify-content: space-between;
+  display: flex;
+  max-width: 960px;
+  padding: 40px 0 40px 40px;
+}
+
+.img {
+  width: 100%;
+}
+
+.col-2-5 {
+  width: calc((2 / 5) * 100%);
+}
+
+.w-padding {
+  align-self: stretch;
+  padding: 0 40px;
+  width: calc((((3 / 5) / 2) * 100%) - 80px);
+}
+
+.border-right {
+  border-right: 2px solid $black;
+}
+
+h6 {
+  padding-bottom: 30px;
+}
+
+.sub-section {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.made-in {
+  padding-bottom: 20px;
+}
+
+// Form
+
+[type="radio"] {
+  display: inline-block;
+}
+
+form {
+  p {
+    display: inline-block;
+  }
+}
