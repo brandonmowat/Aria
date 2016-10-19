@@ -14,14 +14,16 @@ export default class Header extends React.Component {
         <div className="Header">
           <div className="siteHeader">
             <div className="siteHeader__section">
-              <h1 className="logo"><a><Link to="/">Aria</Link></a></h1>
+              <h1 className="logo">
+                <img src="/assets/Aria_logo.svg"></img>
+              </h1>
             </div>
             <div className="siteHeader__section">
               <nav>
-                <a><Link to="/">Home</Link></a>
-                <a><Link to="products">Products</Link></a>
-                <a><Link to="installation">Installation</Link></a>
-                <a><Link to="products">Buy Now</Link></a>
+                <Link to="/">Home</Link>
+                <Link to="products">Products</Link>
+                <Link to="installation">Installation</Link>
+                <Link to="products">Buy Now</Link>
               </nav>
             </div>
           </div>
