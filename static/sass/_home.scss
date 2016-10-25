@@ -1,0 +1,51 @@
+$background: rgb(111,123,149);
+
+.content {
+  background: $background;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 30px;
+}
+
+.home-photos {
+}
+
+.home-photos > * {
+  display: flex;
+}
+
+.home-photos-left {
+  width: 60%;
+}
+
+.home-photos-right {
+  margin-left: 30px;
+  width: 40%;
+}
+
+.photo-left {
+  height: 400px;
+  width: 100%;
+  background: url("../assets/photo-1.png") center center no-repeat;
+}
+
+.photo-right {
+  height: 400px;
+  width: 100%;
+  background: url("../assets/photo-2.png") center center no-repeat;
+}
+
+.photo-left,
+.photo-right {
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.home-photos h5 {
+  margin: 30px 0 0 0;
+  font-size: 30px;
+  text-align: center;
+}

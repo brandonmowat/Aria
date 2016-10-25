@@ -1,0 +1,184 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: '-apple-system', 'Karla', sans-serif; }
+
+h3 {
+  font-size: 24px; }
+
+h6 {
+  font-size: 16px; }
+
+.made-in {
+  font-size: 14px; }
+
+.content {
+  background: #6f7b95; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 30px; }
+
+.home-photos > * {
+  display: flex; }
+
+.home-photos-left {
+  width: 60%; }
+
+.home-photos-right {
+  margin-left: 30px;
+  width: 40%; }
+
+.photo-left {
+  height: 400px;
+  width: 100%;
+  background: url("../assets/photo-1.png") center center no-repeat; }
+
+.photo-right {
+  height: 400px;
+  width: 100%;
+  background: url("../assets/photo-2.png") center center no-repeat; }
+
+.photo-left,
+.photo-right {
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.home-photos h5 {
+  margin: 30px 0 0 0;
+  font-size: 30px;
+  text-align: center; }
+
+.product-content {
+  padding: 30px;
+  background: #d3d4d4; }
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto; }
+
+.product-row {
+  margin: 0 auto;
+  width: 250px; }
+
+._product {
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+  padding: 10px 10px 0 10px; }
+
+.installation-content {
+  background: #d3d4d4; }
+  .installation-content h3 {
+    letter-spacing: 1;
+    font-size: 26px;
+    margin: 20px 0; }
+  .installation-content h5 {
+    font-size: 22px;
+    margin: 20px 0; }
+  .installation-content p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 30px; }
+
+html,
+body {
+  margin: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.Header {
+  color: #fff;
+  background-color: #231f20;
+  padding: 30px 35px; }
+
+.siteHeader,
+.siteFooter {
+  display: flex;
+  justify-content: space-between; }
+
+.siteHeader__section {
+  align-items: center;
+  display: flex; }
+
+.headerInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px; }
+
+.headerInfo__section {
+  align-items: flex-start;
+  display: flex; }
+
+.logo {
+  height: 66px; }
+
+.logo img {
+  height: 66px;
+  width: 150px; }
+
+nav {
+  font-size: 18px;
+  font-weight: 600; }
+
+nav a {
+  color: #fff;
+  margin: 0 0 0 1em;
+  padding: 1em 0; }
+
+.headerInfo__description {
+  font-size: 15px;
+  max-width: 400px; }
+
+.headerInfo__description h3 {
+  font-weight: 500;
+  line-height: 1.3; }
+
+.headerInfo__contact a,
+.headerInfo__social a {
+  line-height: 1.3; }
+
+.headerInfo__contact {
+  width: 230px; }
+
+.headerInfo__contact a {
+  display: block;
+  font-size: 18px; }
+
+.headerInfo__social a {
+  display: block;
+  font-size: 18px; }
+
+.siteFooter {
+  background-color: #231f20;
+  color: #fff;
+  padding: 30px 35px; }
+
+.siteFooter a {
+  font-size: 18px;
+  font-weight: 600; }
+
+/*# sourceMappingURL=styles.css.map */

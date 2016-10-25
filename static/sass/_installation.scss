@@ -1,0 +1,28 @@
+$background: rgb(211,212,212);
+
+.installation-content {
+  background: $background;
+
+  h3 {
+    letter-spacing: 1;
+    font-size: 26px;
+    margin: 20px 0;
+  }
+
+  h5 {
+    font-size: 22px;
+    margin: 20px 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 30px;
+}
