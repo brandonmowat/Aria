@@ -19,6 +19,16 @@ $background: rgb(211,212,212);
     font-weight: 500;
     margin: 10px 0;
   }
+
+  .row {
+    justify-content: space-between;
+    display: flex;
+    margin: 8% 0;
+  }
+  .row img {
+    width: 30%;
+  }
+
 }
 
 .container {
