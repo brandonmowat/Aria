@@ -114,6 +114,38 @@ h6 {
   color: #fff;
   background: #000; }
 
+::-webkit-input-placeholder {
+  color: #000; }
+
+.contact-content {
+  background: #B3C2BE; }
+  .contact-content h3 {
+    letter-spacing: 1;
+    font-size: 26px;
+    margin: 20px 0; }
+  .contact-content h5 {
+    font-size: 22px;
+    margin: 20px 0; }
+  .contact-content input,
+  .contact-content textarea {
+    background: none;
+    border: 4px solid #000;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px; }
+  .contact-content input {
+    font-weight: 500; }
+  .contact-content input.subject,
+  .contact-content textarea {
+    width: calc(100% - 8px); }
+  .contact-content form button {
+    background: #000;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px 20px; }
+
 html,
 body {
   margin: 0; }
